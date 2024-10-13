@@ -1,0 +1,30 @@
+# Git - gitignore Documentation
+# https://git-scm.com/docs/gitignore
+
+
+
+# Windows 资源管理器缩略图缓存
+Thumbs.db
+# Mac Finder 缓存
+.DS_Store
+
+# Unity
+/Library/
+/Logs/
+/Temp/
+/UserSettings/
+
+# Unity 生成的项目文件
+/*.sln
+/*.csproj
+
+# Visual Studio DB 数据库
+/.vs/
+
+# ReSharper 个人配置
+/*.DotSettings.user
+
+# Rider
+/.idea/
+/Assets/Plugins/Editor/JetBrains/
+/Assets/Plugins/Editor/JetBrains.meta

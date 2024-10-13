@@ -1,0 +1,19 @@
+# Git - gitattributes Documentation
+# https://git-scm.com/docs/gitattributes
+
+
+
+# 禁用所有文件的换行符自动转换
+* -text
+
+
+
+# 机器生成的文件
+# Unity *.meta 所有平台下换行符均为 LF
+*.meta                  text eol=lf
+
+
+
+# 人类编写的文件
+# C# 代码
+*.cs                    text eol=lf
